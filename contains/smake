@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+g++ -std=c++11 -g -o demo test.cpp vector.hpp ../allocator/allocator.hpp \
+../allocator/uninitialized.hpp ../allocator/alloc.hpp \
+../allocator/constructor.hpp ../allocator/iterator.hpp pair.hpp \
+../allocator/__type_traits.hpp ../allocator/iterator.hpp list.hpp deque.hpp \
+queue.hpp stack.hpp priority_queue.hpp slist.hpp set.hpp multiset.hpp \
+hashtable.hpp hash_fun.hpp hashset.hpp
+
+# g++ -std=c++11 -g -o demo test.cpp
